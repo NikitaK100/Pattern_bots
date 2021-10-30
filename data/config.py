@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_TOKEN = os.getenv('API_TOKEN')
-ADMIN_ID = os.getenv('ADMIN_ID')
+admins = os.getenv('ADMIN_ID')
 
-DATA_NAME = os.getenv('DATA_NAME')
-PASSWORD_DB = os.getenv('PGPASSWORD')
-HOST_DB = os.getenv('PGHOST')
-DATABASE = os.getenv('DATABASE')
+# DATA_NAME = os.getenv('DATA_NAME')
+# PASSWORD_DB = os.getenv('PGPASSWORD')
+# HOST_DB = os.getenv('PGHOST')
+# DATABASE = os.getenv('DATABASE')
